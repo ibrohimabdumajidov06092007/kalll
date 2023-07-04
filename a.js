@@ -9,5 +9,10 @@ function showtime() {
   card.innerHTML = `${soat}:${minut}:${sakund}`;
 
   setTimeout(showtime, 1000);
+
+
+
+
+  
 }
 showtime();
